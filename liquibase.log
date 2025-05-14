@@ -1,0 +1,76 @@
+mai. 13, 2025 9:03:26 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202505121558.sql
+mai. 13, 2025 9:03:27 PM liquibase.changelog
+INFO: Creating database history table with name: board_manager.DATABASECHANGELOG
+mai. 13, 2025 9:03:27 PM liquibase.changelog
+INFO: Reading from board_manager.DATABASECHANGELOG
+mai. 13, 2025 9:03:27 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202505121748.sql
+mai. 13, 2025 9:03:27 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202505121758.sql
+mai. 13, 2025 9:03:27 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202505121800.sql
+mai. 13, 2025 9:03:27 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202505121900.sql
+mai. 13, 2025 9:03:27 PM liquibase.snapshot
+INFO: Creating snapshot
+mai. 13, 2025 9:03:27 PM liquibase.lockservice
+INFO: Successfully acquired change log lock
+mai. 13, 2025 9:03:27 PM liquibase.command
+INFO: Using deploymentId: 7181006483
+mai. 13, 2025 9:03:27 PM liquibase.changelog
+INFO: Reading from board_manager.DATABASECHANGELOG
+Running Changeset: db/changelog/migrations/db.changelog-202505121558.sql::202505121558::iago
+mai. 13, 2025 9:03:27 PM liquibase.changelog
+INFO: Custom SQL executed
+mai. 13, 2025 9:03:27 PM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202505121558.sql::202505121558::iago ran successfully in 77ms
+Running Changeset: db/changelog/migrations/db.changelog-202505121748.sql::202505121748::iago
+mai. 13, 2025 9:03:27 PM liquibase.changelog
+INFO: Custom SQL executed
+mai. 13, 2025 9:03:27 PM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202505121748.sql::202505121748::iago ran successfully in 81ms
+Running Changeset: db/changelog/migrations/db.changelog-202505121758.sql::202505121758::iago
+mai. 13, 2025 9:03:28 PM liquibase.changelog
+INFO: Custom SQL executed
+mai. 13, 2025 9:03:28 PM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202505121758.sql::202505121758::iago ran successfully in 89ms
+Running Changeset: db/changelog/migrations/db.changelog-202505121800.sql::202505121800::iago
+mai. 13, 2025 9:03:28 PM liquibase.changelog
+INFO: Custom SQL executed
+mai. 13, 2025 9:03:28 PM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202505121800.sql::202505121800::iago ran successfully in 85ms
+Running Changeset: db/changelog/migrations/db.changelog-202505121900.sql::202505121900::iago
+mai. 13, 2025 9:03:28 PM liquibase.changelog
+INFO: Custom SQL executed
+mai. 13, 2025 9:03:28 PM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202505121900.sql::202505121900::iago ran successfully in 133ms
+
+UPDATE SUMMARY
+Run:                          5
+Previously run:               0
+Filtered out:                 0
+-------------------------------
+Total change sets:            5
+
+mai. 13, 2025 9:03:28 PM liquibase.util
+INFO: UPDATE SUMMARY
+mai. 13, 2025 9:03:28 PM liquibase.util
+INFO: Run:                          5
+mai. 13, 2025 9:03:28 PM liquibase.util
+INFO: Previously run:               0
+mai. 13, 2025 9:03:28 PM liquibase.util
+INFO: Filtered out:                 0
+mai. 13, 2025 9:03:28 PM liquibase.util
+INFO: -------------------------------
+mai. 13, 2025 9:03:28 PM liquibase.util
+INFO: Total change sets:            5
+mai. 13, 2025 9:03:28 PM liquibase.util
+INFO: Update summary generated
+mai. 13, 2025 9:03:28 PM liquibase.command
+INFO: Update command completed successfully.
+Liquibase: Update has been successful. Rows affected: 5
+mai. 13, 2025 9:03:28 PM liquibase.lockservice
+INFO: Successfully released change log lock
+mai. 13, 2025 9:03:28 PM liquibase.command
+INFO: Command execution complete
